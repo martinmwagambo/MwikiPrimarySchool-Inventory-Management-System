@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A3C3B46-FD8E-49FA-8592-9FEE96A3DAD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>MwikiPrimarySchool</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MwikiPrimarySchool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MwikiPrimarySchool.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Category Table.Designer.vb">
+      <DependentUpon>Category Table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Category Table.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipments.Designer.vb">
+      <DependentUpon>Equipments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Equipments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Head Of Department Table.Designer.vb">
+      <DependentUpon>Head Of Department Table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Head Of Department Table.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Items Details.Designer.vb">
+      <DependentUpon>Items Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Items Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mwikiprimaryimsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mwikiprimaryimsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Equipments Table.Designer.vb">
+      <DependentUpon>Equipments Table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Equipments Table.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Record_Navigation_Form.Designer.vb">
+      <DependentUpon>Record_Navigation_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Record_Navigation_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Requisition Order Details.Designer.vb">
+      <DependentUpon>Requisition Order Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Requisition Order Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Staff Details.Designer.vb">
+      <DependentUpon>Staff Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stores Table.Designer.vb">
+      <DependentUpon>Stores Table.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stores Table.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Details.Designer.vb">
+      <DependentUpon>Student Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suppliers Details.Designer.vb">
+      <DependentUpon>Suppliers Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Suppliers Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Category Table.resx">
+      <DependentUpon>Category Table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipments.resx">
+      <DependentUpon>Equipments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Head Of Department Table.resx">
+      <DependentUpon>Head Of Department Table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Items Details.resx">
+      <DependentUpon>Items Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Equipments Table.resx">
+      <DependentUpon>Equipments Table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Record_Navigation_Form.resx">
+      <DependentUpon>Record_Navigation_Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Requisition Order Details.resx">
+      <DependentUpon>Requisition Order Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff Details.resx">
+      <DependentUpon>Staff Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stores Table.resx">
+      <DependentUpon>Stores Table.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Details.resx">
+      <DependentUpon>Student Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suppliers Details.resx">
+      <DependentUpon>Suppliers Details.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="mwikiprimaryimsDataSet.xsc">
+      <DependentUpon>mwikiprimaryimsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="mwikiprimaryimsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>mwikiprimaryimsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="mwikiprimaryimsDataSet.xss">
+      <DependentUpon>mwikiprimaryimsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mwikiprimaryims.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
